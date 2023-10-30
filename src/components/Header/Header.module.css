@@ -1,0 +1,25 @@
+.header{
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	grid-area: h;
+	user-select: none;
+	}
+
+
+	.links{
+		display: flex;
+	}
+	
+
+	.photo{
+		width: 30px;
+		height: 30px;
+		border-radius: 10px;
+		margin: 15px 0 0 15px;
+		transition: .1s linear;
+	}
+	.photo:hover {
+		box-shadow: 0 0 0 2px white, 0 0 0 4px #000000;
+	}
+	

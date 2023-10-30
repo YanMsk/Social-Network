@@ -1,0 +1,23 @@
+.nav{
+	grid-area: n;
+	border-right: 2px solid black;
+	}
+
+	.item{
+		padding: 10px;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+		transition: 0.2s;
+	}
+
+	a.hover{
+		transition: 0s;
+	}
+
+	a.active{
+	font-weight: 700;
+	text-transform: uppercase;
+	}
+

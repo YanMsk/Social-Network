@@ -1,0 +1,17 @@
+.userPhoto{
+	width: 100px;
+	height: 100px;
+}
+
+.selectedPage{
+	font-size: 17px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.pages{
+	display: flex;
+	gap: 20px;
+	cursor: pointer;
+}
+
